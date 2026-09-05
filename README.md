@@ -32,3 +32,5 @@ Cabe destacar que para lograrlo, las sustancias deben entender el mismo mensaje,
 
 
 También hay que diseñar qué datos son _atributos_ y cuáles _métodos de consulta_ de `tito`. El enunciado pide que `velocidad` **no** sea un atributo ya que se obtiene de un cálculo que involucra el rendimiento, inercia y peso de `tito`.
+
+Agregar a pepe, otro voluntario, que pesa inicialmente 80, tiene 30 años. pepe debe poner cumplir años y se diferencia de tito en que para calcular su velocidad si tiene mas de 30 entonces le resta 10 de velocidad
