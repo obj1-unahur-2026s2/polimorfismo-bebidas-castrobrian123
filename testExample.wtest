@@ -11,4 +11,12 @@ describe "test de bebidas" {
         assert.equals(10.8 * 490 / 80, pepe.velocidad())
     }
 
+    test "alguna cosa has initial energy" {
+        assert.that(tito.esFeliz())
+    }
+
+    test "otra cosa has initial energy" {
+        tito.consumir(10, cianuro)
+        assert.notThat(tito.esFeliz())
+    }
 }

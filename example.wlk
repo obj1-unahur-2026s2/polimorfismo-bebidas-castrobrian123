@@ -21,6 +21,8 @@ object tito {
         return bebidaConsumida.rendimientoQueOtorga(dosis,self) //inserto la dosis
         *490 / peso
     }
+    
+    method esFeliz() = self.velocidad() >= 7
 
     //method rendimientoQueOtorga(unaDosis) {
     //    return
